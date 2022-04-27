@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/doan_house/app/src/main/res/drawable-v24/btn_bg.xml" value="0.136" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/doan_house/app/src/main/res/drawable-v24/cus1.xml" value="0.193" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/doan_house/app/src/main/res/drawable-v24/custom_bg.xml" value="0.136" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/doan_house/app/src/main/res/drawable-v24/custom_btn.xml" value="0.136" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/doan_house/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/doan_house/app/src/main/res/layout/activity_main.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/doan_house/app/src/main/res/layout/activity_register.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/doan_house/app/src/main/res/layout/activity_reset_password.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/doan_house/app/src/main/res/layout/activity_toolbar.xml" value="0.25" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/doan_house/app/src/main/res/layout/fragment_about.xml" value="0.25" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/doan_house/app/src/main/res/layout/fragment_acount.xml" value="0.25" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/doan_house/app/src/main/res/layout/fragment_blank.xml" value="0.25" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/doan_house/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/doan_house/app/src/main/res/layout/homee.xml" value="0.264" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/doan_house/app/src/main/res/layout/layout_header_navigation.xml" value="0.2359375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login_activity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"
+        />
+
+    <TextView
+        android:id="@+id/Tv_forgotpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#30AADD"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="136dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="#FEB139"
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"/>
+
+
+    <EditText
+        android:id="@+id/edt_email_lg"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/edt_bg"
+        android:paddingLeft="20dp"
+        android:textColor="#2E8B57"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="#FEB139"
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edt_password_lg"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textColor="#2E8B57"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:background="@drawable/edt_bg"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/Tv_resetpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="30dp"
+        android:text="Forgot your pasword?"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent" />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_login_lg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/cus1"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_signup_lg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/cus1"
+        android:text="Sign up"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+    <ProgressBar
+        android:id="@+id/progressBar_lg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+</LinearLayout>

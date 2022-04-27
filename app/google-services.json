@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "410191449062",
+    "firebase_url": "https://project-debee-default-rtdb.firebaseio.com",
+    "project_id": "project-debee",
+    "storage_bucket": "project-debee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410191449062:android:761d5836adb6e36fd3e427",
+        "android_client_info": {
+          "package_name": "com.example.doan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410191449062-c4gp24s2llh1cv6bo7s4ivua915lpi7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiLrx6Yit2GPbibY4Cyuj5oknfjRrnHdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "410191449062-c4gp24s2llh1cv6bo7s4ivua915lpi7q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410191449062:android:f1eb2bc46a4e2fc1d3e427",
+        "android_client_info": {
+          "package_name": "com.example.doan_house"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410191449062-c4gp24s2llh1cv6bo7s4ivua915lpi7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiLrx6Yit2GPbibY4Cyuj5oknfjRrnHdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "410191449062-c4gp24s2llh1cv6bo7s4ivua915lpi7q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
