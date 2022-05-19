@@ -34,14 +34,14 @@ public class Login_activity extends AppCompatActivity {
 //            startActivity(new Intent(Login_activity.this, MainActivity.class));
 //        }
         setContentView(R.layout.activity_login);
-//        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-//        setSupportActionBar(toolbar);
+
         inputEmail = findViewById(R.id.edt_email_lg);
         inputPassword = findViewById(R.id.edt_password_lg);
         progressBar = findViewById(R.id.progressBar_lg);
         btnLogin = findViewById(R.id.btn_login_lg);
         btnSignUp = findViewById(R.id.btn_signup_lg);
         tv_forgotpass = findViewById(R.id.Tv_resetpass);
+
         // get firebase auth instance
         auth = FirebaseAuth.getInstance();
 
@@ -82,9 +82,6 @@ public class Login_activity extends AppCompatActivity {
                         .addOnCompleteListener(Login_activity.this, new OnCompleteListener<AuthResult>() {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
-                                // If sign in fails, display a message to the user. If sign in succeeds
-                                // the auth state listener will be notified and logic to handle the
-                                // signed in user can be handled in the listener.
                                 progressBar.setVisibility(View.GONE);
                                 if (!task.isSuccessful()) {
                                     // there was an error
